@@ -20,7 +20,7 @@ test("4 - merges two sorted arrays correctly ", () => {
   ]);
 });
 
-test("merges two sorted arrays correctly - additional case 2", () => {
+test("5 - merges two sorted arrays ", () => {
   expect(getSortedArray([1, 2, 0, 0, 0, 0], 2, [3, 4, 5, 6], 4)).toEqual([
     1, 2, 3, 4, 5, 6,
   ]);
