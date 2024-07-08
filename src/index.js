@@ -1,10 +1,10 @@
-//função para determinar o array que deve ser utilizado
+// Function to get the result array by merging and sorting nums1 and nums2
 function getSortedArray(nums1, m, nums2, n) {
   let i = 0,
     j = 0;
   const newArray = [];
 
-  // loop inicial, que compara os arrays até que um seja finalizado
+  // Initial loop, compares both arrays and finishes when one of them is added
   while (i < m && j < n) {
     if (nums1[i] < nums2[j]) {
       newArray.push(nums1[i++]);
@@ -13,7 +13,7 @@ function getSortedArray(nums1, m, nums2, n) {
     }
   }
 
-  // loops que finalizam a cópia de arrays com o que estiver faltando
+  // Loops that end the process by adding the remaining items
   while (i < m) {
     newArray.push(nums1[i++]);
   }
