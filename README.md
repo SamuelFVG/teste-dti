@@ -21,19 +21,18 @@ This project provides a function to merge two sorted arrays (`nums1` and `nums2`
 
 To run automated tests:
 
-    ```bash
-    npm test
-    ```
+```bash
+npm test
+```
 
 To run the code:
 
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
 Or
 
-    ```bash
-    node ./src/index.js
-
-    ```
+```bash
+node ./src/index.js
+```
